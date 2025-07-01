@@ -1,0 +1,26 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment folders
+env/
+venv/
+.env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore model and dataset cache files
+*.h5
+*.pkl
+*.joblib
+
+# Ignore IDE files
+.vscode/
+.idea/

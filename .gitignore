@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+*/env/
+*/venv/
+*/.env/
+*/.venv/
+churn_env/
+cust_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data
+*.csv
+*.xlsx
+*.xls
+
+# Others
+*.db
+*.sqlite
